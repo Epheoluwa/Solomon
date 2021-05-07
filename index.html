@@ -5,38 +5,62 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css" >  
-  <title>Frontend Mentor | Base Apparel coming soon page</title>
+  
+  <title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
-<body onload='document.form.email.focus()'>
-  <div class="row">
-    <div class="first-column">
-      <img src="logo.png" class="logo">
-      <div id="word">
-        <h2> W E ' R E</h2> 
-        <h1> C O M I N G <br> S O O N</h1>
-        <p> Hello fellow shoppers! We're currently building our new <br> fashion store.
-          Add your email below to stay up-to-date with <br> announcements and our launch deals.
+<body>
+  <div id="head">
+    <h3> Reliable, efficient delivery</h3>
+    <h2> Powered by Technology</h2>
+    <p> Our Artificial Intelligence powered tools use millions of project data <br/> points 
+      to ensure that your project is successful
+    </p>
+  </div>
+    
+  <div class="container">
+    <div id="sup">
+      <div class="card" style="border-top:hsl(180, 62%, 55%); border-top-style: solid; border-radius: 10px;">
+        <h4>
+          Supervisor
+        </h4> 
+        <p style="padding-right: 28px;">
+          Monitoring activity to identify project roadblocks
         </p>
-          <form id=form name="form">
-            <div class="form-control">
-              <input type="email" placeholder="Email Address" id="email" name="email" class="email" reguired>
-              <button  onclick="Validate(email)" type="submit"  class="validate" ></button>
-              <i> <img src="icon-error.png"> </i>
-              <br>
-              <label id="lb1text">Please provide a valid email</label> 
-            </div>
-          </form>
-          
+        <img src="icon-supervisor.png" class="img">
+      </div> 
+    </div>
+    <div id="team">
+      <div class="card"style="border-top:hsl(0, 78%, 62%); border-top-style: solid; border-radius: 10px;">
+        <h4>
+          Team Builder
+        </h4> 
+        <p style="padding-left: 21px;">  
+          Scans our talent network to create the optimal team for your project
+        </p>
+        <img src="icon-team-builder.png" class="img">
       </div>
     </div>
-    
-
-    <div class="second-column">
-      
+    <div id="Karma">
+      <div class="card" style="border-top:hsl(34, 97%, 64%); border-top-style: solid; border-radius: 10px;">
+        <h4>Karma</h4> 
+        <p style="padding-left: 25px;"> Regularly evaluates our talent to ensure quality</p> 
+        <img src="icon-karma.png" class="img">
+      </div>
     </div>
-  
-  
+    <div id="cal"> 
+      <div class="card" style="border-top:hsl(212, 86%, 64%); border-top-style: solid; border-radius: 10px;">
+        <h4>
+          Calculator
+        </h4> 
+        <p style="padding-left: 24px;"> 
+          User data from past projects to provide better delivery estimates
+        </p>
+        <img src="icon-calculator.png" class="img">
+      </div>
+    </div> 
+  </div>
 
 </body>
 </html>
