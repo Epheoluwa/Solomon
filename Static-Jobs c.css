@@ -1,0 +1,206 @@
+body{
+    margin: 0px;
+    background-color:hsl(180, 52%, 96%);
+}
+@font-face {
+    font-family: Spartan;
+    src: url(Fonts/Spartan-Bold.ttf);
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: Spartan;
+    src: url(Fonts/Spartan-Light.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face{
+    font-family: Spartan;
+    src: url(Fonts/Spartan-Regular.ttf);
+    font-weight: 500;
+    font-style: normal;
+}
+header{
+    background-color: hsl(180, 29%, 50%);
+    background-image: url(images/bg-header-desktop.svg);
+    background-repeat: no-repeat;
+    height: 20vh;   
+}
+.card{
+    display: grid;
+    margin-top: 40px;
+    height: 140px;
+    width: 1000px;
+    background-color: white;
+    margin-left: 140px;
+    position: relative;
+    padding-left: 50px;
+    padding-top: 0px;
+}
+
+ul{
+    display: inline-block;
+    padding-top: 5px;
+   padding-left: 0px;
+    
+}
+ul li {
+    list-style-type: none;
+   display: inline-block;
+   
+
+}
+.container{
+    display: grid;
+    padding-bottom: 50px;
+}
+h1{
+    font-family: Spartan;
+    font-size: 10px;
+    font-weight: 700;
+    color: hsl(180, 29%, 50%);
+}
+h2{
+    font-family: Spartan;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: hsl(180, 29%, 50%);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: hsl(180, 29%, 50%);
+    color: white;
+    
+    
+}
+h3{
+    font-family: Spartan;
+    font-size: 10px;
+    font-weight: 500;
+    background-color: hsl(180, 14%, 20%);
+    border-radius: 8px;
+    border-style: solid;
+    border-color: hsl(180, 14%, 20%);
+    color: white;
+    
+}
+h4{
+    font-family: Spartan;
+    font-size: 15px;
+    font-weight: 700; 
+    margin-top: 0px;
+
+    
+}
+p{
+    font-family: Spartan;
+    font-size: 10px;
+    font-weight: 500; 
+    margin-top: 0px;
+}
+a{
+    font-family: Spartan;
+    font-size: 8px;
+    font-weight: 500; 
+    position: relative;
+    bottom: 70px;
+    left: 480px;
+    display: flex;
+    justify-content: flex-end;
+    width: 380px;
+    
+}
+:focus{
+    outline: none;
+}
+button{
+    font-family: Spartan;
+    font-size: 12px;
+    font-weight: 500; 
+    color: hsl(180, 29%, 50%);
+    background-color: hsl(180, 52%, 96%);
+    border-radius: 3px;
+    border-style: solid;
+    border-color: hsl(180, 52%, 96%);   
+}
+img{
+    margin-top: 20px;
+    margin-left: 0px;
+}
+.word{
+    position: absolute;
+    left: 160px;
+}
+@media only screen and (max-width:550px){
+    body{
+        width: 100%;
+    }
+    header{
+        background-image: url(images/bg-header-mobile.svg);
+        background-repeat: no-repeat;
+        background-color: hsl(180, 29%, 50%);
+    }
+    .container{
+        display: grid;
+    }
+    .card{
+        display: grid;
+        margin-top: 40px;
+        height: 250px;
+        width: 90%;
+        margin-left: 140px;
+        padding-left: 20px;
+        padding-top: 0px;
+        margin-left: 13px;   
+    }
+    a{
+        position: relative;
+        top: 20px;
+        left: 0px;
+        font-size: 12px;
+        display: flex;
+        justify-content: flex-start;
+        margin: 0px;
+        width: 50px;
+        padding: 0px;
+        
+    }
+    .word{
+        position: absolute;
+        left: 20px;
+        top: 0px;
+    }
+    img{
+        position: relative;
+        bottom: 50px;
+        height: 20%;
+    }
+    h1{
+        font-size: 12px;
+    }
+    h2{
+        font-size: 12px;  
+    }
+    h3{
+        font-size: 12px;   
+    }
+    h4{  
+        font-size: 17px;
+        padding-top: 0px;        
+    }
+    p{
+        font-size: 10px;
+    }
+    ul{
+        padding-top: 0px;
+    }
+    button{
+        font-size: 15px;
+        padding: 0px;   
+    }
+    .line{
+        border-bottom: 1px solid grey;
+        width: 400px;
+    }
+
+    
+}
